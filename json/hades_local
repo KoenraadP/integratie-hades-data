@@ -1,0 +1,488 @@
+{
+  "metadata": {
+    "projectTitle": "Hades Data Archive",
+    "version": "1.0.3",
+    "createdBy": "House of Hades Research Department",
+    "lastUpdated": "2026-06-02",
+    "language": "en",
+    "notes": [
+      "This file contains both useful and unnecessary information.",
+      "Not every property is needed for the assignment."
+    ]
+  },
+  "story": {
+    "title": "Story",
+    "subtitle": "Escape from the Underworld",
+    "releaseContext": {
+      "originalRelease": 2020,
+      "developer": "Supergiant Games",
+      "genre": [
+        "roguelike",
+        "action",
+        "mythology"
+      ]
+    },
+    "paragraphs": [
+      "Zagreus (Darren Korb), the firstborn son of Hades (Logan Cunningham), seeks to escape his father's realm in the Underworld. He is aided in his quest by his adoptive mother Nyx (Jamie Landrum), the Gods of Olympus to whom he has reached out, and other inhabitants of the Underworld. Hades claims that escape is impossible and hinders Zagreus by unleashing the Underworld's monsters on him. Each time Zagreus is slain, he is revived at the House of Hades, a palace where he and other Chthonic gods reside, which he leaves to attempt another escape.",
+      "It is eventually revealed that Zagreus wishes to escape the Underworld to find his biological mother Persephone (Laila Berzins) whom he never knew due to being told that he was the child of Nyx. Hades refuses to allow her name to be spoken in his House, and it is said that those who disobey this order will be punished. Nyx decides to help Zagreus find the truth about his birth mother by putting him in contact with his relatives on Mount Olympus, including Zeus (Peter Canavese), Poseidon (Logan Cunningham), Ares (Cyrus Nemati), Aphrodite (Courtney Vineys), Artemis (Jamie Landrum), Athena (Marianne Miller), Demeter (Laila Berzins), Dionysus (Cyrus Nemati), and Hermes (Andrew Marks). After eventually reaching the exit to the Underworld and defeating Hades, Zagreus finds Persephone at a cottage in Greece. After they reunite, Zagreus discovers that since he, like Hades, is bound to the Underworld, he will quickly die after reaching the surface. Despite this, he promises to keep escaping the Underworld to spend time with Persephone and learn the truth about her absence.",
+      "Over the course of these visits, it is revealed that Zeus 'gave' Persephone to Hades as a reward for ruling over the Underworld with the other Olympians believing that she simply disappeared. The two had a loving marriage until Zagreus was stillborn due to the Fates having decreed that Hades would never have an heir. Persephone ran away in grief, but refused to return to her birthplace on Olympus which she disliked due to the Olympians' constant bickering. Nyx eventually resurrected Zagreus after making a deal with the Fates. Persephone refuses to return to the Underworld because she fears retribution towards Hades if the Olympians discover the truth about her disappearance. Zagreus eventually convinces her to return after reminding her of the bonds of family, and Charon (Logan Cunningham) ferries them to the House of Hades. Persephone resumes her duties as Queen of the Underworld. Now with renewed respect for his son, Hades requests that Zagreus continue his escape attempts to identify further security vulnerabilities in the Underworld.",
+      "In an epilogue, Persephone tells Zagreus of her idea of reconciling with the Olympians by inviting them to a feast in the House. At the feast, they claim that Hades and Persephone eloped and had Zagreus, while saying that due to her having eaten Underworld pomegranate seeds, she can only leave the Underworld a few months out of the year. The Olympians accept this explanation, though it is implied they know the truth and wish to move on. With everyone reconciled, Zagreus' duties to escape his home continue."
+    ],
+    "quotes": [
+      "There is no escape.",
+      "Death is only the beginning.",
+      "The House always wins."
+    ]
+  },
+  "characters": [
+    {
+      "id": 1,
+      "name": "Zagreus",
+      "role": "Prince of the Underworld",
+      "category": "main character",
+      "image": "images/zagreus.webp",
+      "description": "Zagreus is determined to escape the Underworld and discover the truth about his family.",
+      "age": "unknown",
+      "heightCm": 185,
+      "favouriteFood": "Ambrosia",
+      "homeRegion": "House of Hades",
+      "relationshipStatus": "complicated",
+      "voiceActor": "Darren Korb",
+      "popularityScore": 98,
+      "combatStats": {
+        "strength": 84,
+        "speed": 91,
+        "defense": 72,
+        "magic": 68
+      },
+      "dialogueLines": [
+        "One more time.",
+        "Not now, Father.",
+        "I can do this."
+      ],
+      "abilities": [
+        {
+          "name": "Infernal Strike",
+          "god": "Zagreus",
+          "effect": "A quick melee attack used with several weapons.",
+          "rarity": "basic",
+          "cooldown": 0,
+          "unusedUpgradeCost": 25
+        },
+        {
+          "name": "Bloodstone Cast",
+          "god": "Zagreus",
+          "effect": "Launches a magical projectile at enemies.",
+          "rarity": "basic",
+          "cooldown": 3,
+          "unusedUpgradeCost": 40
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Athena",
+      "role": "Goddess of Wisdom",
+      "category": "Olympian god",
+      "image": "images/athena.webp",
+      "description": "Athena helps Zagreus with defensive boons that can deflect enemy attacks.",
+      "age": "immortal",
+      "heightCm": 178,
+      "favouriteFood": "Olives",
+      "homeRegion": "Olympus",
+      "voiceActor": "Katherine Kingsley",
+      "popularityScore": 87,
+      "combatStats": {
+        "strength": 70,
+        "speed": 74,
+        "defense": 96,
+        "magic": 88
+      },
+      "dialogueLines": [
+        "I shall protect you, cousin.",
+        "Wisdom shall guide you."
+      ],
+      "abilities": [
+        {
+          "name": "Divine Dash",
+          "god": "Athena",
+          "effect": "Your dash deals damage and can deflect.",
+          "rarity": "rare",
+          "cooldown": 1,
+          "unusedUpgradeCost": 75
+        },
+        {
+          "name": "Divine Strike",
+          "god": "Athena",
+          "effect": "Your attack becomes stronger and can deflect.",
+          "rarity": "common",
+          "cooldown": 0,
+          "unusedUpgradeCost": 60
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Zeus",
+      "role": "God of Thunder",
+      "category": "Olympian god",
+      "image": "images/zeus.webp",
+      "description": "Zeus offers lightning-based boons that can damage multiple enemies.",
+      "age": "immortal",
+      "heightCm": 190,
+      "favouriteFood": "Roasted nectar figs",
+      "homeRegion": "Olympus",
+      "voiceActor": "Peter Canavese",
+      "popularityScore": 81,
+      "combatStats": {
+        "strength": 90,
+        "speed": 76,
+        "defense": 78,
+        "magic": 94
+      },
+      "dialogueLines": [
+        "Nephew!",
+        "Let thunder strike!"
+      ],
+      "abilities": [
+        {
+          "name": "Lightning Strike",
+          "god": "Zeus",
+          "effect": "Your attack emits chain lightning.",
+          "rarity": "common",
+          "cooldown": 0,
+          "unusedUpgradeCost": 50
+        },
+        {
+          "name": "Thunder Dash",
+          "god": "Zeus",
+          "effect": "Your dash causes a lightning bolt to strike nearby enemies.",
+          "rarity": "rare",
+          "cooldown": 1,
+          "unusedUpgradeCost": 80
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Poseidon",
+      "role": "God of the Sea",
+      "category": "Olympian god",
+      "image": "images/poseidon.webp",
+      "description": "Poseidon gives Zagreus knockback powers and strong water-based attacks.",
+      "age": "immortal",
+      "heightCm": 188,
+      "favouriteFood": "Seaweed salad",
+      "homeRegion": "Olympus",
+      "voiceActor": "Logan Cunningham",
+      "popularityScore": 78,
+      "combatStats": {
+        "strength": 88,
+        "speed": 69,
+        "defense": 82,
+        "magic": 86
+      },
+      "abilities": [
+        {
+          "name": "Tempest Strike",
+          "god": "Poseidon",
+          "effect": "Your attack deals more damage and knocks enemies away.",
+          "rarity": "common",
+          "cooldown": 0,
+          "unusedUpgradeCost": 55
+        },
+        {
+          "name": "Tidal Dash",
+          "god": "Poseidon",
+          "effect": "Your dash damages enemies and knocks them away.",
+          "rarity": "rare",
+          "cooldown": 1,
+          "unusedUpgradeCost": 85
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Aphrodite",
+      "role": "Goddess of Love",
+      "category": "Olympian god",
+      "image": "images/aphrodite.webp",
+      "description": "Aphrodite weakens enemies and reduces the damage Zagreus receives.",
+      "age": "immortal",
+      "heightCm": 176,
+      "favouriteFood": "Pomegranate cake",
+      "homeRegion": "Olympus",
+      "voiceActor": "Courtney Vineys",
+      "popularityScore": 84,
+      "combatStats": {
+        "strength": 62,
+        "speed": 72,
+        "defense": 79,
+        "magic": 92
+      },
+      "abilities": [
+        {
+          "name": "Heartbreak Strike",
+          "god": "Aphrodite",
+          "effect": "Your attack deals more damage and inflicts Weak.",
+          "rarity": "common",
+          "cooldown": 0,
+          "unusedUpgradeCost": 60
+        },
+        {
+          "name": "Passion Dash",
+          "god": "Aphrodite",
+          "effect": "Your dash damages nearby enemies and inflicts Weak.",
+          "rarity": "rare",
+          "cooldown": 1,
+          "unusedUpgradeCost": 90
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Ares",
+      "role": "God of War",
+      "category": "Olympian god",
+      "image": "images/ares.webp",
+      "description": "Ares focuses on doom effects and violent blade-based attacks.",
+      "age": "immortal",
+      "heightCm": 186,
+      "favouriteFood": "Charred meat",
+      "homeRegion": "Olympus",
+      "voiceActor": "Cyrus Nemati",
+      "popularityScore": 79,
+      "combatStats": {
+        "strength": 94,
+        "speed": 73,
+        "defense": 80,
+        "magic": 83
+      },
+      "abilities": [
+        {
+          "name": "Curse of Agony",
+          "god": "Ares",
+          "effect": "Your attack inflicts Doom.",
+          "rarity": "common",
+          "cooldown": 0,
+          "unusedUpgradeCost": 65
+        },
+        {
+          "name": "Blade Dash",
+          "god": "Ares",
+          "effect": "Your dash creates a Blade Rift.",
+          "rarity": "rare",
+          "cooldown": 1,
+          "unusedUpgradeCost": 95
+        }
+      ]
+    },
+    {
+  "id": 7,
+  "name": "Artemis",
+  "role": "Goddess of the Hunt",
+  "category": "Olympian god",
+  "image": "images/artemis.webp",
+  "description": "Artemis rewards precision and skill with powerful critical hits and enhanced ranged attacks.",
+  "age": "immortal",
+  "heightCm": 175,
+  "favouriteFood": "Wild berries",
+  "homeRegion": "Olympus",
+  "voiceActor": "Marisha Ray",
+  "popularityScore": 91,
+  "combatStats": {
+    "strength": 78,
+    "speed": 95,
+    "defense": 68,
+    "magic": 85
+  },
+  "dialogueLines": [
+    "The hunt is on, cousin.",
+    "Strike true and swiftly."
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Strike",
+      "god": "Artemis",
+      "effect": "Your attack is stronger and has a chance to critically hit.",
+      "rarity": "common",
+      "cooldown": 0,
+      "unusedUpgradeCost": 65
+    },
+    {
+      "name": "Hunter Dash",
+      "god": "Artemis",
+      "effect": "Your dash-strike deals more damage.",
+      "rarity": "rare",
+      "cooldown": 1,
+      "unusedUpgradeCost": 85
+    }
+  ]
+},
+{
+  "id": 8,
+  "name": "Demeter",
+  "role": "Goddess of Seasons",
+  "category": "Olympian god",
+  "image": "images/demeter.webp",
+  "description": "Demeter uses the power of winter to slow enemies and gradually wear them down with chilling effects.",
+  "age": "immortal",
+  "heightCm": 181,
+  "favouriteFood": "Fresh wheat bread",
+  "homeRegion": "Olympus",
+  "voiceActor": "Lisa Banes",
+  "popularityScore": 83,
+  "combatStats": {
+    "strength": 76,
+    "speed": 63,
+    "defense": 89,
+    "magic": 97
+  },
+  "dialogueLines": [
+    "Feel the cold embrace of winter.",
+    "The seasons favor you, little sprout."
+  ],
+  "abilities": [
+    {
+      "name": "Frost Strike",
+      "god": "Demeter",
+      "effect": "Your attack is stronger and inflicts Chill.",
+      "rarity": "common",
+      "cooldown": 0,
+      "unusedUpgradeCost": 70
+    },
+    {
+      "name": "Mistral Dash",
+      "god": "Demeter",
+      "effect": "Your dash shoots a gust ahead that inflicts Chill.",
+      "rarity": "rare",
+      "cooldown": 1,
+      "unusedUpgradeCost": 95
+    }
+  ]
+}
+  ],
+  "weapons": [
+    {
+      "id": "w01",
+      "name": "Stygius",
+      "type": "Sword",
+      "damage": 50,
+      "unlockCost": 0,
+      "range": "short",
+      "attackSpeed": 72,
+      "flavourText": "The blade of the Underworld.",
+      "unusedSkins": [
+        "Zagreus Aspect",
+        "Nemesis Aspect",
+        "Poseidon Aspect"
+      ],
+      "internalCode": "WPN_SWORD_001"
+    },
+    {
+      "id": "w02",
+      "name": "Varatha",
+      "type": "Spear",
+      "damage": 45,
+      "unlockCost": 4,
+      "range": "medium",
+      "attackSpeed": 68,
+      "flavourText": "A spear with excellent reach.",
+      "unusedSkins": [
+        "Zagreus Aspect",
+        "Achilles Aspect",
+        "Hades Aspect"
+      ],
+      "internalCode": "WPN_SPEAR_002"
+    },
+    {
+      "id": "w03",
+      "name": "Aegis",
+      "type": "Shield",
+      "damage": 40,
+      "unlockCost": 3,
+      "range": "short",
+      "attackSpeed": 55,
+      "flavourText": "A defensive weapon with strong impact.",
+      "unusedSkins": [
+        "Zagreus Aspect",
+        "Chaos Aspect",
+        "Zeus Aspect"
+      ],
+      "internalCode": "WPN_SHIELD_003"
+    },
+    {
+      "id": "w04",
+      "name": "Coronacht",
+      "type": "Bow",
+      "damage": 60,
+      "unlockCost": 1,
+      "range": "long",
+      "attackSpeed": 48,
+      "flavourText": "A bow for careful and powerful shots.",
+      "unusedSkins": [
+        "Zagreus Aspect",
+        "Chiron Aspect",
+        "Hera Aspect"
+      ],
+      "internalCode": "WPN_BOW_004"
+    },
+    {
+      "id": "w05",
+      "name": "Malphon",
+      "type": "Fists",
+      "damage": 25,
+      "unlockCost": 8,
+      "range": "short",
+      "attackSpeed": 95,
+      "flavourText": "Twin fists built for rapid attacks.",
+      "unusedSkins": [
+        "Zagreus Aspect",
+        "Talos Aspect",
+        "Demeter Aspect"
+      ],
+      "internalCode": "WPN_FISTS_005"
+    },
+    {
+      "id": "w06",
+      "name": "Exagryph",
+      "type": "Rail",
+      "damage": 35,
+      "unlockCost": 8,
+      "range": "long",
+      "attackSpeed": 82,
+      "flavourText": "A strange weapon that fires from a distance.",
+      "unusedSkins": [
+        "Zagreus Aspect",
+        "Eris Aspect",
+        "Hestia Aspect"
+      ],
+      "internalCode": "WPN_RAIL_006"
+    }
+  ],
+  "reviews": [
+    {
+      "source": "Myth Monthly",
+      "score": 10,
+      "quote": "An excellent escape from the Underworld."
+    },
+    {
+      "source": "Olympus Gaming",
+      "score": 9,
+      "quote": "Fast, stylish and endlessly replayable."
+    }
+  ],
+  "settings": {
+    "defaultDifficulty": "normal",
+    "maxAttempts": 999,
+    "enableDebugMode": false,
+    "supportedLanguages": [
+      "en",
+      "nl",
+      "fr",
+      "de",
+      "es"
+    ],
+    "recommendedScreenWidth": 1200
+  }
+}
